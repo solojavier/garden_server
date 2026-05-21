@@ -39,11 +39,11 @@ module GardenServer
       p do 
         text 'Welcome to '
         a 'Javier', href: 'https://www.jvrc.ca'
-        text '\'s self-hosted garden server via '
-        a 'miren', href: 'https://miren.dev'
+        text '\'s self-hosted garden running with '
+        a 'Miren', href: 'https://miren.dev'
         text ' in a '
-        a 'Midstack virtual machine', href: 'https://midstack.com'
-        text '.'
+        a 'Midstack', href: 'https://midstack.com'
+        text ' virtual machine.'
       end
 
       p do
