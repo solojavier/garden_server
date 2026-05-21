@@ -37,12 +37,12 @@ module GardenServer
 
     def index
       p do 
-        text 'Welcome to self-hosted garden server of '
+        text 'Welcome to '
         a 'Javier', href: 'https://www.jvrc.ca'
-        text '. Self-hosted with '
+        text '\'s self-hosted garden server via '
         a 'miren', href: 'https://miren.dev'
         text ' in a '
-        a 'Midstack VPS', href: 'https://midstack.com'
+        a 'Midstack virtual machine', href: 'https://midstack.com'
         text '.'
       end
 
