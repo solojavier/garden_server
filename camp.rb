@@ -58,7 +58,7 @@ module GardenServer
         tbody do
           ul do
             li do
-              a 'camping-demo.gardenserver.com', href: 'https://camping-demo.gardenserver.com'
+              a 'www.gardenserver.com (Built with camping)', href: 'https://www.gardenserver.com'
               text ' ('
               a 'source code', href: 'https://github.com/solojavier/garden_server'
               text ')'
